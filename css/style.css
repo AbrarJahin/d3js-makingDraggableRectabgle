@@ -1,7 +1,8 @@
 svg {
 	border: solid 1px red;
-    width: 100%;
+	width: 100%;
 }
+
 rect {
 	fill: lightblue;
 	stroke: blue;
@@ -10,48 +11,48 @@ rect {
 
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .full-width {
-    min-width: 100%;
-    width: 100%;
+	min-width: 100%;
+	width: 100%;
 }
 
 .canvas {
-    min-height: 450px;
-    background-color: #cbdbf4;
+	min-height: 450px;
+	background-color: #cbdbf4;
 }
 
 .svg {
-    border: dashed 1px red;
+	border: dashed 1px red;
 }
 
 .rectangle {
-    fill: lightblue;
-    stroke: blue;
-    stroke-width: 2px;
+	fill: lightblue;
+	stroke: blue;
+	stroke-width: 2px;
 }
 
 .squire {
-    fill: lightblue;
-    stroke: blue;
-    stroke-width: 2px;
+	fill: lightblue;
+	stroke: blue;
+	stroke-width: 2px;
 }
 
 .corner-circle {
-    fill: lightblue;
-    stroke: blue;
-    stroke-width: 2px;
+	fill: lightblue;
+	stroke: blue;
+	stroke-width: 2px;
 }
 
 .edge-circle {
-    fill: lightblue;
-    stroke: blue;
-    stroke-width: 2px;
+	fill: lightblue;
+	stroke: blue;
+	stroke-width: 2px;
 }
 
 .rect-draw {
-    opacity: 0.2;
+	opacity: 0.2;
 }
