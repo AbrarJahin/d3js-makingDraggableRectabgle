@@ -23,9 +23,9 @@ function Rectangle() {
 		m1 = d3.mouse(this);
 		if (!isDown && !isDrag) {
 			self.rectData = [{ x: m1[0], y: m1[1] }, { x: m1[0], y: m1[1] }];
-			self.rectangleElement = d3.select('svg').append('rect').attr('class', 'rectangle').call(dragR);
-			self.pointElement1 = d3.select('svg').append('circle').attr('class', 'pointC').call(dragC1);
-			self.pointElement2 = d3.select('svg').append('circle').attr('class', 'pointC').call(dragC2);
+			self.rectangleElement = svg.append('rect').attr('class', 'rectangle').call(dragR);
+			self.pointElement1 = svg.append('circle').attr('class', 'pointC').call(dragC1);
+			self.pointElement2 = svg.append('circle').attr('class', 'pointC').call(dragC2);
 			self.pointElement3 = svg.append('circle').attr('class', 'pointC').call(dragC3);
 			self.pointElement4 = svg.append('circle').attr('class', 'pointC').call(dragC4);
 			updateRect();
